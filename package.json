@@ -1,0 +1,28 @@
+{
+  "name": "automatisation-exercice-2",
+  "version": "1.0.0",
+  "description": "Ce projet est un petit annuaire d'entreprises.   Il permet de lister plusieurs entreprises, et d'en voir leur bureaux et employées.",
+  "homepage": "https://github.com/grandj161u/Automatisation-Exercice-2#readme",
+  "bugs": {
+    "url": "https://github.com/grandj161u/Automatisation-Exercice-2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grandj161u/Automatisation-Exercice-2.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint assets/*.js",
+    "lint:fix": "eslint assets/*.js --fix"  
+  },
+  "keywords": [],
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0"
+  }
+}

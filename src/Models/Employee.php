@@ -14,6 +14,11 @@ class Employee extends Model
         return $this->belongsTo(Company::class);
     }
 
+    public function office(): BelongsTo
+    {
+        return $this->belongsTo(Office::class);
+    }
+
     public function getDisplayName(): string
     {
         return "{$this->first_name} {$this->last_name}";
